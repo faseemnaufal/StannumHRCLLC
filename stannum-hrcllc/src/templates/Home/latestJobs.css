@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../../fonts/Open_Sans/static/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+
+.segment-home {
+    background-color: #EFEFEF;
+    font-family: "OpenSans", sans-serif;
+    height: 80vh;
+}
+
+.segment-page-container {
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    padding-top: 150px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.homeSeg-target_button {
+    background-color: #EFEFEF;
+    color: #404040;
+    padding: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 8px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 1px solid #404040;
+    position: relative;
+    cursor: pointer;
+}
+
+.homeSeg-target_button:hover {
+    background-color: #b69121;
+    color: #EFEFEF;
+    text-decoration: none;
+    border: 2px solid #b69121;
+}
+
+.vector6arrowSeg {
+    margin-left: 5px;
+}
+
+.homeSeg-target_button:hover .vector6arrowSeg {
+    opacity: 0;
+}
+
+.segment-column {
+    margin: 0 10px;
+}
+
+.text-column {
+    flex: 1;
+}
+
+.image-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    flex: 2;
+}
+
+.segment-h1 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #353535;
+    font-family: "Montserrat", sans-serif;
+}
+
+.segment-p1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #404040;
+    font-family: "OpenSans";
+    margin-bottom: 30px;
+}
+
+.segment-p3 {
+    font-size: 18px;
+    color: #404040;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.segment-image-container {
+    flex-basis: calc(30% - 20px);
+    /* Make containers smaller */
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.segment-image-container1 {
+    flex-basis: calc(30% - 20px);
+    /* Make containers smaller */
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.segment-image-container-a {
+    text-decoration: none;
+}
+
+.segment-image2 {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1px;
+    height: 250px;
+    transition: transform 0.5s ease;
+}
+
+.segment-p3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    /* Adjust this value to move the underline closer or farther from the text */
+    width: 100%;
+    height: 2px;
+    /* Thickness of the underline */
+    background-color: #b69121;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* .segment-image2:hover {
+    transform: scale(1.1);
+} */
+
+.segment-image2:hover~.segment-image-p .segment-p3::after,
+.segment-p3:hover::after {
+    transform: scaleX(1);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .segment-page-container {
+        flex-direction: column;
+    }
+
+    .segment-column {
+        margin: 10px 0;
+    }
+
+    .segment-home {
+        height: auto;
+    }
+
+    .image-columns {
+        justify-content: center;
+    }
+
+    .segment-image-container {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .segment-image2 {
+        height: auto;
+    }
+}

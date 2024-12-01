@@ -1,0 +1,379 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "OpenSans";
+    src: url("../../fonts/Open_Sans/static/OpenSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  
+  .aboutValue-layout-228 {
+    width: 100%;
+    background-color: #EFEFEF;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 112px 64px;
+    box-sizing: border-box;
+    gap: 80px;
+    text-align: center;
+    font-size: 32px;
+    color: #404040;
+    font-family: "OpenSans", sans-serif;
+    font-weight: 300;
+  
+  }
+  
+  .aboutValue-short-heading-here1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 48px;
+    font-weight: 700;
+    color: #353535;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .aboutValue-content13 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+  }
+  
+  .aboutValue-actions6,
+  .aboutValue-column5,
+  .aboutValue-section-title1 {
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  
+  .aboutValue-icon-relume2 {
+    width: 48px;
+    position: relative;
+    height: 48px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .aboutValue-column5 {
+    width: 405px;
+    border-radius: 30px;
+    background-color: #d9dddc;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutValue-column51 {
+    width: 405px;
+    border-radius: 30px;
+    background-image: url(../../images/nurse.jpg);
+    background-size: cover; /* Makes the image cover the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutValue-column52 {
+    width: 405px;
+    border-radius: 30px;
+    background-image: url(../../images/driver.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutValue-column53 {
+    width: 405px;
+    border-radius: 30px;
+    background-image: url(../../images/cook.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutValue-column54 {
+    width: 405px;
+    border-radius: 30px;
+    background-color: #d9dddc;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutValue-column55 {
+    width: 405px;
+    border-radius: 30px;
+    background-color: #d9dddc;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutValue-column56 {
+    width: 405px;
+    border-radius: 30px;
+    background-color: #d9dddc;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutValue-section-title1 {
+    /* align-self: stretch; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutValue-vector-icon5,
+  .aboutValue-vector-icon6,
+  .aboutValue-vector-icon7 {
+    width: 100px;
+    position: relative;
+    height: 100px;
+  }
+  
+  .aboutValue-heading5 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+    font-size: 30px !important;
+    font-family: "Montserrat", sans-serif;
+    color: #353535;
+    background-color: #efefef9c;
+  }
+  
+  .aboutValue-text7 {
+    width: 348px;
+    position: relative;
+    font-size: 18px !important;
+    line-height: 28px;
+    font-family: "OpenSans";
+    color: #404040;
+    background-color: #efefefc9;
+    font-weight: 400;
+    display: inline-block;
+    height: 198px;
+    flex-shrink: 0;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .aboutValue-vector-icon12,
+  .aboutValue-vector-icon15 {
+    width: 82.9px;
+    position: relative;
+    height: 90px;
+  }
+  
+  .aboutValue-the-board-plays {
+    margin: 0;
+  }
+  
+  .aboutValue-vector-icon15 {
+    width: 83.6px;
+  }
+  
+  .aboutValue-group-icon,
+  .aboutValue-vector-icon22 {
+    width: 90px;
+    position: relative;
+    height: 90px;
+  }
+  
+  .aboutValue-vector-icon22 {
+    width: 80.5px;
+  }
+  
+  .aboutValue-run-x2c-rush-x2c-runner-x2c-icon5 {
+    width: 100.3px;
+    position: relative;
+    height: 90px;
+  }
+  
+  @media (min-width: 1210px) {
+    .aboutValue-layout-228 {
+      padding: 140px 80px;
+      gap: 100px;
+    }
+  
+    .aboutValue-content13 {
+      justify-content: space-around;
+      gap: 60px;
+    }
+  
+    .aboutValue-column5 {
+      width: 30%;
+      height: 580px;
+      padding: 24px;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    /* .aboutValue-heading5 {
+      font-size: 28px;
+    } */
+  
+    .aboutValue-text7 {
+      /* font-size: 24px; */
+      width: 90%;
+      margin-top: 15px;
+    }
+  
+    .aboutValue-vector-icon5,
+    .aboutValue-vector-icon12,
+    .aboutValue-vector-icon15 {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  
+  @media (max-width: 1200px) {
+  
+    .aboutValue-layout-228 {
+      padding: 80px 40px;
+      /* font-size: 28px; */
+      gap: 60px;
+    }
+  
+    .aboutValue-short-heading-here1 {
+      font-size: 48px;
+    }
+  
+    .aboutValue-content13 {
+      gap: 40px;
+    }
+  
+    .aboutValue-column5 {
+      width: 350px;
+      height: 500px;
+    }
+  
+    .aboutValue-text7 {
+      width: 300px;
+      /* font-size: 20px; */
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .aboutValue-layout-228 {
+      padding: 60px 20px;
+      /* font-size: 22px; */
+      gap: 40px;
+    }
+  
+    .aboutValue-content13 {
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .aboutValue-column5 {
+      width: 30%;
+      max-width: auto;
+      height: 450px;
+      padding: 16px;
+    }
+  
+    .aboutValue-heading5 {
+      /* font-size: 20px; */
+      text-align: center;
+    }
+  
+    .aboutValue-text7 {
+      width: 100%;
+      /* font-size: 16px; */
+      text-align: center;
+      line-height: 1.4;
+    }
+  
+    .aboutValue-vector-icon5,
+    .aboutValue-vector-icon12,
+    .aboutValue-vector-icon15 {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .aboutValue-layout-228 {
+      padding: 60px 20px;
+      /* font-size: 24px; */
+      gap: 40px;
+    }
+  
+    /* .aboutValue-short-heading-here1 {
+      font-size: 36px;
+    } */
+  
+    .aboutValue-content13 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .aboutValue-column5 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .aboutValue-text7 {
+      width: 100%;
+      /* font-size: 18px; */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .aboutValue-layout-228 {
+      padding: 40px 10px;
+      /* font-size: 20px; */
+      gap: 20px;
+    }
+  
+    /* .aboutValue-short-heading-here1 {
+      font-size: 28px;
+    } */
+  
+    .aboutValue-content13 {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .aboutValue-column5 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .aboutValue-text7 {
+      width: 100%;
+      /* font-size: 16px; */
+    }
+  
+    .aboutValue-icon-relume2,
+    .aboutValue-vector-icon5,
+    .aboutValue-vector-icon6,
+    .aboutValue-vector-icon7,
+    .aboutValue-vector-icon12,
+    .aboutValue-vector-icon15,
+    .aboutValue-group-icon,
+    .aboutValue-vector-icon22,
+    .aboutValue-run-x2c-rush-x2c-runner-x2c-icon5 {
+      width: 70px;
+      height: 70px;
+    }
+  }
