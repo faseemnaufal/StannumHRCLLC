@@ -1,7 +1,7 @@
 .contact-body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #fff;
     padding-bottom: 100px;
   }
   
@@ -19,7 +19,7 @@
     margin: 0 auto;
     padding: 40px 0;
     font: 300 60px 'Oswald', sans-serif;
-    color: #fff;
+    color: #353535;
     text-transform: uppercase;
     letter-spacing: 6px;
   }
@@ -89,13 +89,13 @@
   
   .list-item {
     line-height: 4;
-    color: #aaa;
+    color: #404040;
   }
   
   .contact-text {
     font: 300 18px 'Lato', sans-serif;
     letter-spacing: 1.9px;
-    color: #bbb;
+    color: #404040;
   }
   
   .place {
@@ -111,13 +111,13 @@
   }
   
   .contact-text a {
-    color: #bbb;
+    color: #404040;
     text-decoration: none;
     transition-duration: 0.2s;
   }
   
   .contact-text a:hover {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
   }
   

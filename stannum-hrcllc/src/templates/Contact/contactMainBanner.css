@@ -28,7 +28,7 @@
   }
   
   .contact-home-image {
-      /* height: 60vh; */
+      height: 60vh;
       width: 100%;
       object-fit: cover;
     }
@@ -44,7 +44,7 @@
     }
     
     .contact-image-background-text {
-        color: #ffffff;
+        color: #fff;
         width: 50%;
         font-size: 22px;
         letter-spacing: -1.2%;

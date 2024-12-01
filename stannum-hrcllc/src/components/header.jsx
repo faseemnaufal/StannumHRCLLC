@@ -178,13 +178,17 @@ const Header = () => {
             <Link to="/" style={{ color: menuColor }} onClick={(e) => handleHomeTransition(e, 'home')}>HOME</Link>
           </li>
 
-          <li data-aos="fade-down" data-aos-duration="250" data-aos-delay='450'>
-            {/* <AniLink paintDrip to="/about-us" hex="#001033">ABOUT US</AniLink> */}
+          {/* <li data-aos="fade-down" data-aos-duration="250" data-aos-delay='450'>
+            <AniLink paintDrip to="/about-us" hex="#001033">ABOUT US</AniLink>
             <Link to="/about-us" style={{ color: menuColor }} onClick={(e) => handleHomeTransition(e, 'about-us')}>ABOUT US</Link>
-          </li>
+          </li> */}
 
           <li data-aos="fade-down" data-aos-duration="250" data-aos-delay='700'>
             <AniLink paintDrip hex="#001033" style={{ color: menuColor }} to="/vacancies">VACANCIES</AniLink>
+          </li>
+         
+          <li data-aos="fade-down" data-aos-duration="250" data-aos-delay='700'>
+            <AniLink paintDrip hex="#001033" style={{ color: menuColor }} to="/contact">CONTACT</AniLink>
           </li>
 
           <li data-aos="fade-down" data-aos-duration="250" data-aos-delay='1150'>
