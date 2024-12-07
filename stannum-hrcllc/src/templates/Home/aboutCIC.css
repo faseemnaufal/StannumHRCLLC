@@ -11,7 +11,7 @@
 }
 
 .s2-home {
-  background-color:#eceaea;
+  background-color:#ffffff;
   font-family: "OpenSans", sans-serif;
   overflow: hidden;
   height: 100vh;
@@ -30,7 +30,7 @@
 .column {
   flex: 1;
   margin: 0 10px;
-  background-color: #ffffff;
+  background-color: #eceaea;
 }
 .column1 {
   flex: 1;

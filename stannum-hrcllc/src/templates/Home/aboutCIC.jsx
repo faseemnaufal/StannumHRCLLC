@@ -57,20 +57,20 @@ export default function AboutCIC() {
           </h2>
           <center>
             <div className="page-container">
-              <div className="column">
+              <div className="column" data-aos="fade-up" data-aos-duration="700">
                 <h2 className="aboutcic-h1">Professionals</h2>
                 <p className="aboutcic-p1">Our team comprises highly skilled professionals with in-depth knowledge 
                   of visa regulations and HR solutions, dedicated to providing you with personalized and efficient 
                   services.
                 </p>
               </div>
-              <div className="column">
+              <div className="column" data-aos="fade-up" data-aos-duration="900">
                 <h2 className="aboutcic-h1">Experience</h2>
                 <p className="aboutcic-p1">With extensive experience in the industry, we have built a reputation for 
                   delivering top-notch solutions that cater to a diverse range of industries and clients.
                 </p>
               </div>
-              <div className="column">
+              <div className="column" data-aos="fade-up" data-aos-duration="1100">
                 <h2 className="aboutcic-h1">Trusted
                 </h2>
                 <p className="aboutcic-p1">We are committed to integrity, transparency, and excellence, making us 

@@ -196,7 +196,7 @@ const Header = () => {
           </li>
           
           <li data-aos="fade-down" data-aos-duration="250" data-aos-delay='1150'>
-            <p className="header-contact">0123111111</p>
+            <p className="header-contact">+971505887449</p>
           </li>
           <li data-aos="fade-down" data-aos-duration="250" data-aos-delay='1150'>
             <p className="header-contact">info@stannumhrconsultancy.com</p>
