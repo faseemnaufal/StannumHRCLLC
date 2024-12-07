@@ -94,20 +94,20 @@ const ContactForm = () => {
           <ul className="contact-list">
             <li className="list-item">
               <i className="fa fa-map-marker fa-2x">
-                <span className="contact-text place">City, State</span>
+                <span className="contact-text place">13b, Hor Al anz, Deira, Dubai, UAE</span>
               </i>
             </li>
             <li className="list-item">
               <i className="fa fa-phone fa-2x">
                 <span className="contact-text phone">
-                  <a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a>
+                  <a href="tel:1-212-555-5555" title="Give me a call">+971505887449</a>
                 </span>
               </i>
             </li>
             <li className="list-item">
               <i className="fa fa-envelope fa-2x">
                 <span className="contact-text gmail">
-                  <a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a>
+                  <a href="mailto:#" title="Send me an email">stannumhrconsultanciesllc@gmail.com</a>
                 </span>
               </i>
             </li>
@@ -116,22 +116,22 @@ const ContactForm = () => {
           <hr />
           <ul className="social-media-list">
             <li>
-              <a href="#" target="_blank" className="contact-icon">
+              <a href="https://www.facebook.com/share/1MVSnDcj5a/?mibextid=LQQJ4d" target="_blank" className="contact-icon">
                 <i className="fa fa-facebook" aria-hidden="true"></i>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#" target="_blank" className="contact-icon">
                 <i className="fa fa-codepen" aria-hidden="true"></i>
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#" target="_blank" className="contact-icon">
-                <i className="fa fa-twitter" aria-hidden="true"></i>
+                <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" className="contact-icon">
+              <a href="https://www.instagram.com/stannumhrconsultanciesllc/profilecard/?igsh=dXh5MG42dHZtZWM2" target="_blank" className="contact-icon">
                 <i className="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </li>

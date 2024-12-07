@@ -26,9 +26,6 @@ export default function Footer() {
                     <a href="/">Home</a>
                   </p>
                   <p className="foot-the-board-plays">
-                    <a href="/about-us">About Us</a>
-                  </p>
-                  <p className="foot-the-board-plays">
                     <a href="/vacancies">Vacancies</a>
                   </p>
                   <p className="foot-the-board-plays">
@@ -42,14 +39,14 @@ export default function Footer() {
                 <div className="foot-address">Contact us</div>
                 <div className="foot-div">
                   <p className="foot-the-board-plays">
-                    <a href="mailto:stannum.hrconsultancy@gmail.com">stannum.hrconsultancy@gmail.com</a><br />
+                    <a href="mailto:stannum.hrconsultancy@gmail.com">stannumhrconsultanciesllc@gmail.com</a><br />
                     <a href="mailto:info@stannumhrconsultancy.com">info@stannumhrconsultancy.com</a>
                   </p>
                   <p className="foot-the-board-plays">
-                    <a href="tel:+971-4111111">+971-4111111</a>
+                    <a href="tel:+971-4111111">+971505887449</a>
                   </p>
                   <p className="foot-the-board-plays">
-                    <a href="tel:+971-4111111">+971-4111111</a>
+                    <a href="tel:+971-4111111">+971585149878</a>
                   </p>
                 </div>
               </div>
@@ -60,12 +57,12 @@ export default function Footer() {
                 <p className="foot-the-board-plays">
                   <div style={{ marginTop: "-13px" }}>
                     <a
-                      href="https://maps.app.goo.gl/ALgjhs"
+                      href="https://maps.app.goo.gl/j4RubZjbYadap8eM9"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ lineHeight: 1.8 }}
                     >
-                      111, New Road, <br /> Dubai.
+                      13b, Hor Al anz, Deira,  <br /> Dubai, UAE.
                     </a>
                   </div>
                 </p>
@@ -75,7 +72,7 @@ export default function Footer() {
               <div className="foot-address">Social</div>
               <div className="social-icons">
                 <a
-                  href="https://www.facebook.com/"
+                  href="https://www.facebook.com/share/1MVSnDcj5a/?mibextid=LQQJ4d"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -83,7 +80,7 @@ export default function Footer() {
                   <FaFacebookF />
                 </a>
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/stannumhrconsultanciesllc/profilecard/?igsh=dXh5MG42dHZtZWM2"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -106,7 +103,7 @@ export default function Footer() {
           <div className="foot-divider11" />
           <div className="foot-row6">
             <div className="foot-web-design-by">
-              Powered by <a href="https://www.abc.lk/">AFH</a> IT Solutions | Copyright ©
+              Powered by <a href="/">AFH</a> IT Solutions | Copyright ©
               2024 Stannum HR
             </div>
             {/* <div className="foot-footer-links">
