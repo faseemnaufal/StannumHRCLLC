@@ -3,6 +3,7 @@
  */
 
 module.exports = {
+  pathPrefix: "/StannumHRCLLC",
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
   },
