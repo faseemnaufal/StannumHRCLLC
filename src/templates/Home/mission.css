@@ -1,0 +1,428 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "OpenSans";
+    src: url("../../fonts/Open_Sans/static/OpenSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  .betterFuture-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+    /* background-color: #877f7d; */
+    overflow: hidden;
+    transform-style: preserve-3d;
+    font-family: "OpenSans", sans-serif;
+  }
+  
+  .betterFuture-title {
+    text-align: left;
+    margin-bottom: 80px;
+    padding-top: 20px;
+  }
+  
+  .betterFuture-title-h1 {
+    color: #353535;
+    font-family: "Montserrat", sans-serif;
+    font-size: 38px;
+  }
+  
+  .betterFuture-cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    transform-style: preserve-3d;
+    margin-bottom: 50px;
+  }
+  
+  .betterFuture-card {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    perspective: 1500px;
+    transform-style: preserve-3d;
+  }
+  
+  .betterFuture-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .betterFuture-card:hover .betterFuture-content {
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+  }
+  
+  .betterFuture-back-p {
+    /* margin-top: 20%; */
+    padding: 20px;
+    font-size: 16px;
+    line-height: 35px;
+    font-family: "OpenSans", sans-serif;
+  }
+  
+  .header-back {
+    background-color: #877f7d;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+  }
+  
+  .header-back h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .icon-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -51px auto 20px;
+    border: 5px solid #877f7d;
+  }
+  
+  .icon-back img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .card-content-back {
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: -6%;
+  }
+  
+  .icon-front-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px auto 0;
+    border: 5px solid #877f7d;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .icon-front-1 img {
+    width: 65px;
+    height: 65px;
+  }
+  
+  .header-front {
+    background-color: #877f7d;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Our Vision */
+  
+  .betterFuture-front1,
+  .betterFuture-back1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #48494b;
+    /* background-image: url(../../images/Mission1.png); */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+  
+  .betterFuture-back1 {
+    position: relative;
+    color: #ffffff;
+    transform: rotateY(180deg);
+    overflow: hidden;
+  }
+  
+  .betterFuture-back1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url(../../images/Mission1.png); */
+    background-size: cover;
+    filter: blur(70px);
+    z-index: -1;
+  }
+  
+  .icon-back-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -51px auto 20px;
+    border: 5px solid #877f7d;
+  }
+  
+  .icon-back-1 img {
+    width: 65px;
+    height: 65px;
+  }
+  
+  /* End of Our Vision */
+  
+  /* Our Mission */
+  
+  .betterFuture-front2,
+  .betterFuture-back2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #363636;
+    /* background-image: url(../../images/Vision1.png); */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+  
+  .betterFuture-back2 {
+    position: relative;
+    color: #ffffff;
+    transform: rotateY(180deg);
+    overflow: hidden;
+  }
+  
+  .betterFuture-back2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url(../../images/Vision1.png); */
+    background-size: cover;
+    filter: blur(70px);
+    z-index: -1;
+  }
+  
+  .betterFuture-front-h2 {
+    margin-top: 30%;
+    font-size: 48px;
+    font-family: "OpenSans", sans-serif;
+  }
+  
+  .header-back {
+    background-color: #877f7d;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+  }
+  
+  .header-back h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .icon-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -51px auto 20px;
+    border: 5px solid #877f7d;
+  }
+  
+  .icon-back img {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .icon-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px auto 0;
+    border: 5px solid #877f7d;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .icon-front img {
+    width: 75px;
+    height: 75px;
+  }
+  
+  /* End of Our Mission */
+  
+  
+  
+  /* Media query for tablets */
+  @media (max-width: 1024px) {
+    .betterFuture-title-h1 {
+      /* font-size: 36px; */
+      margin-bottom: 60px;
+    }
+  
+    .betterFuture-cards-container {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .betterFuture-card {
+      width: 500px;
+      height: 400px;
+    }
+  
+    .betterFuture-front-h2 {
+      /* font-size: 36px; */
+      margin-top: 25%;
+    }
+  
+    .betterFuture-back-p {
+      /* font-size: 16px; */
+      padding: 15px;
+      line-height: 30px;
+    }
+  
+    .header-front {
+      height: 18%;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .betterFuture-title-h1 {
+      /* font-size: 30px; */
+      margin-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .betterFuture-card {
+      width: 400px;
+      height: 350px;
+    }
+  
+    .betterFuture-front-h2 {
+      /* font-size: 28px; */
+      margin-top: 20%;
+    }
+  
+    .betterFuture-back-p {
+      /* font-size: 14px; */
+      line-height: 25px;
+      margin-top: 5%;
+    }
+  
+    .header-front {
+      height: 20%;
+    }
+  }
+  
+  /* Media query for small mobile screens */
+  @media (max-width: 480px) {
+    .betterFuture-title-h1 {
+      /* font-size: 24px; */
+      margin-bottom: 10px;
+    }
+  
+    .betterFuture-card {
+      width: 350px;
+      height: 360px;
+    }
+  
+    .betterFuture-front-h2 {
+      /* font-size: 24px; */
+      margin-top: 15%;
+    }
+  
+    .betterFuture-back-p {
+      /* font-size: 12px; */
+      margin-top: -12px;
+    }
+  }
+  
+  @media (max-width: 380px) {
+    .betterFuture-card {
+      width: 300px;
+      height: 380px;
+    }
+  
+    .betterFuture-back-p {
+      margin-top: -10px;
+    }
+  }

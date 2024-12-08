@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../fonts/Montserrat/static/Montserrat-Regular.ttf")
+      format("truetype");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "OpenSans";
+    src: url("../../fonts/Open_Sans/static/OpenSans-Regular.ttf")
+      format("truetype");
+    font-style: normal;
+  }
+  
+  /* .contactBannerparallax {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-image: url("../../images/aboutMainBanner.png");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+  .contact-us {
+    height: 60vh;
+  }
+  
+  .contact-home-image {
+      height: 60vh;
+      width: 100%;
+      object-fit: cover;
+    }
+    
+    .contact-image-text-box {
+      width: 88%;
+      text-align: start;
+      z-index: 1;
+      position: absolute;
+      top: 20vh;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .contact-image-background-text {
+        color: #fff;
+        width: 50%;
+        font-size: 22px;
+        letter-spacing: -1.2%;
+    }
+    
+    .contact-image-topic {
+      font-family: "Montserrat";
+      font-size: 96px;
+      font-weight: 400;
+    }
+  
+    @media (max-width: 1015px) {
+      .contact-image-text-box {
+        top: 38vh;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .contact-image-text-box {
+        top: 30vh;
+      }
+    }
+  
+    @media (max-width: 480px) {
+      .contact-home-image {
+        height: 60vh;
+      }
+      .contact-image-text-box {
+        top: 40vh;
+      }
+      
+      .contact-image-topic {
+        font-size: 60px;
+      }
+    }

@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../fonts/Open_Sans/static/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+.s2-home {
+  background-color:#ffffff;
+  font-family: "OpenSans", sans-serif;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.page-container {
+  width: 88%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  padding-top: 100px;
+  background-color:#ffffff;
+  /* background-color:#CEA2FD; */
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #eceaea;
+}
+.column1 {
+  flex: 1;
+  margin: 0 10px;
+  border-radius: 10px;
+  /* background-color: #663399; */
+  background-color: #3e424b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.column1:hover {
+  background-color: #B69121;
+}
+
+.aboutcic-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  color: #353535;
+  margin: 0;
+  margin: 20px;
+  font-weight: 700;
+}
+.aboutcic-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.aboutcic-p1 {
+  font-size: 16px;
+  color: #404040;
+  line-height: 28px;
+  margin: 30px;
+  text-align: justify;
+}
+.aboutcic-p2 {
+  font-size: 16px;
+  color: #fff;
+  line-height: 28px;
+  margin: 30px;
+  text-align: justify;
+}
+.aboutImg {
+  height: 100px;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 1200px) {
+  .s2-home {
+    height: unset;
+  }
+
+  .page-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    margin: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .page-container {
+    flex-direction: column;
+  }
+
+  .column {
+    flex: 1;
+    margin: 20px 0;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .s2-home {
+    height: auto;
+  }
+}
+
+
